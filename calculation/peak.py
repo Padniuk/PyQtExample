@@ -6,6 +6,7 @@ class Peak:
         self.amplitude = amplitude
         self.mean = mean
         self.fwhm = fwhm
+    
     #method to get value at point for each peak
     def get_value_at_point(self,x):
         try:

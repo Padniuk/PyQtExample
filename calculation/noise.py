@@ -4,7 +4,8 @@ from math import fabs,sqrt
 #fixed seed for possibility to cut the noise    
 
 def gaussian_noise(y,add_noise, last_noise_state):
-    #statistical gaussian noise
+    
+    WWW#statistical gaussian noise
     if add_noise:
         last_noise_state = [0 if y[i]==0 else int(fabs(y[i]-normal(y[i],sqrt(y[i])))) for i in range(len(y))]
     else:

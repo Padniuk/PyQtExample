@@ -2,6 +2,7 @@ from math import exp
 
 #background is uniq for spectrum and it describes by the follow function: a*exp(-b*x)+c*x+d
 class Background:
+    
     def __init__(self):
         pass
     
